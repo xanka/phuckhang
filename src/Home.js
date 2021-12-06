@@ -6,10 +6,10 @@ function Home() {
   return (
     <>
       <Common
-        name="Grow your business with"
+        name="Phát triển doanh nghiệp của bạn với"
         imgsrc={web}
         visit="/service"
-        btname="Get started"
+        btname="Liên Hệ"
       />
     </>
   );

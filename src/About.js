@@ -6,10 +6,11 @@ function About() {
   return (
     <>
       <Common
-        name="Welcome to the world of"
+        name="Chào mừng bạn đến với"
         imgsrc={web}
         visit="/contact"
-        btname="Contact Us"
+        btname="Liên hệ"
+        description="Với 15 năm trong ngành ép nhựa, và sửa chữa máy ép Phúc Khang Plastic sẵn sàng mang đến dịch vụ tốt nhất đến quý khách hàng."
       />
     </>
   );

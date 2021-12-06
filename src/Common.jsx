@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-function Common({ name, imgsrc, visit, btname }) {
+function Common({ name, imgsrc, visit, btname, description ='' }) {
   return (
     <>
       <section id="header" className="d-flex align-items-center">
@@ -12,14 +12,15 @@ function Common({ name, imgsrc, visit, btname }) {
                 <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                   <h1>
                     {name}
-                    <strong className="brand-name"> GrowMore Inc. </strong>
+                    <strong className="brand-name"> Phúc Khang Plastic. </strong>
                   </h1>
 
                   <h2 className="my-3">
-                    We're a team of talented developers that can help your
-                    business grow!
+                    Công ty chuyên ép nhựa, gia công các mặt hàng nhựa, phụ kiện giầy da, chân ghế sô pha các  mặt  hàng  nhựa  gia dụng. Cung cấp  các  mặt  hàng  về  nghành  ép  nhựa,  mua bán máy  ép  nhựa  sửa  chữa  máy  ép.
+                    <br></br>
+                    {description}
                   </h2>
-
+              
                   <div className="mt-3">
                     <NavLink to={visit} className="btn-get-started">
                       {btname}

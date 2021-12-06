@@ -11,19 +11,19 @@ function Service() {
   return (
     <>
       <div className="my-5">
-        <h1 className="text-center">Our Services</h1>
+        <h1 className="text-center">Chúng tôi cung cấp</h1>
       </div>
 
       <div className="container-fluid mb-5">
         <div className="row">
           <div className="col-10 mx-auto">
             <div className="row gy-4">
-              <Card title="Android Development" imgsrc={img1} />
-              <Card title="Web Development" imgsrc={img2} />
-              <Card title="Database Management" imgsrc={img3} />
-              <Card title="Business Analytics" imgsrc={img4} />
-              <Card title="Digital Marketing" imgsrc={img5} />
-              <Card title="Video Creation" imgsrc={img6} />
+              <Card title="Gia công các mặt hàng nhựa" description="" imgsrc={img1} />
+              <Card title="Mua bán máy  ép  nhựa  sửa  chữa  máy  ép" description="" imgsrc={img2} />
+              <Card title="Database Management" description="" imgsrc={img3} />
+              <Card title="Business Analytics" description="" imgsrc={img4} />
+              <Card title="Digital Marketing" description="" imgsrc={img5} />
+              <Card title="Video Creation" description="" imgsrc={img6} />
             </div>
           </div>
         </div>

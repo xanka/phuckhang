@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import logo from "../src/Pictures/2.png";
 function Navbar() {
   return (
     <>
@@ -9,7 +9,7 @@ function Navbar() {
           <div className="col-10 mx-auto">
             <nav className="navbar navbar-expand-lg">
               <NavLink className="navbar-brand" to="/">
-                PhucKhang Plastic.
+                <img src={logo} width={"30%"}/>
               </NavLink>
               <button className="navbar-toggler" type="button">
                 <span className="navbar-toggler-icon"></span>

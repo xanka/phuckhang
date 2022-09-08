@@ -24,12 +24,12 @@ function Contact() {
         console.log('FAILED...', err);
       });
   };
-  
+
   const handleChange = (e) => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
 
-  
+
 
   return (
     <>
@@ -42,7 +42,7 @@ function Contact() {
           <div className="col-md-6">
             <h3>CÔNG TY TNHH THƯƠNG MẠI PHÚC KHANG PLASTIC</h3>
             <div><b>Địa Chỉ:</b> Thửa đất số 999, Tờ bàn đồ số 142, Khu phố Bình Phước A, Phường Bình Chuẩn, Thành phố Thuận An, Tỉnh Bình Dương, Việt Nam.</div>
-            <div><b>Số Điện Thoại:</b> 0989558209</div>
+            <div><b>Số Điện Thoại:</b> 0989558209 - Mr. Sơn</div>
           </div>
           <div className="col-md-6">
             <p>Mời bạn điền vào mẫu thư liên lạc và gửi đi cho chúng tôi. Các chuyên viên tư vấn của chúng tôi sẽ trả lời bạn trong thời gian sớm nhất.</p>

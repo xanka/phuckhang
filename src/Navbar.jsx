@@ -4,15 +4,15 @@ import logo from "../src/Pictures/2.png";
 function Navbar() {
   return (
     <>
-      <div className="container-fluid nav_bg">
+      <div className="container-fluid">
         <div className="row">
-          <div className="col-10 mx-auto">
-            <nav className="navbar navbar-expand-lg">
-              <NavLink className="navbar-brand" to="/">
-                <img src={logo} width={"30%"}/>
+          <div className="col-10 mx-auto mb-5 mb-md-0">
+            <nav className="navbar navbar-expand-lg navbar-light">
+              <NavLink className="navbar-brand col-6" to="/">
+                <img src={logo} alt={'Phuckhang Plastic'}/>
               </NavLink>
-              <button className="navbar-toggler" type="button">
-                <span className="navbar-toggler-icon"></span>
+              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent">
+                <span className="navbar-toggler-icon"/>
               </button>
 
               <div

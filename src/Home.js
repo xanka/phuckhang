@@ -8,8 +8,8 @@ function Home() {
       <Common
         name="Phát triển doanh nghiệp của bạn với"
         imgsrc={web}
-        visit="/service"
-        btname="Liên Hệ"
+        visit="/contact"
+        btname="Liên Hệ Ngay"
       />
     </>
   );

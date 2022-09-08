@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Common({ name, imgsrc, visit, btname, description ='' }) {
   return (
     <>
-      <section id="header" className="d-flex align-items-center">
+      <section id="header" className="align-items-center">
         <div className="container-fluid nav_bg">
           <div className="row">
             <div className="col-10 mx-auto">
@@ -20,7 +20,7 @@ function Common({ name, imgsrc, visit, btname, description ='' }) {
                     <br></br>
                     {description}
                   </h2>
-              
+
                   <div className="mt-3">
                     <NavLink to={visit} className="btn-get-started">
                       {btname}
